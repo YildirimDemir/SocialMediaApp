@@ -1,0 +1,13 @@
+.modalArea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: #000000a4;
+    transform: translate(50%, 50%);
+    right: 50%;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

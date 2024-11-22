@@ -1,0 +1,78 @@
+.exploreArea {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .categories {
+    width: 300px;
+    height: 50px;
+    background-color: var(--black-2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    border-left: 2px solid #414141;
+    border-right: 2px solid #414141;
+  }
+
+  .categories button {
+    margin: 0px 10px;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .activeCategory {
+    color:  var(--blue) !important; 
+  }
+  
+  .postsArea {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .postBox {
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+    border: 1px solid #313131;
+    border-radius: 8px; 
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    background: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .postBox:hover .overlay {
+    opacity: 1; 
+  }
+  
+  .iconContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white; 
+    margin: 0 10px; 
+  }
+  
+  .icon {
+    font-size: 24px; 
+    margin-bottom: 4px; 
+  }

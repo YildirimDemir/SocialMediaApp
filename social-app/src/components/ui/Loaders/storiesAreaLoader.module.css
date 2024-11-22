@@ -1,0 +1,50 @@
+.storyArea{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid var(--black-2);
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 3px;
+    height: 100%;
+    background-color: var(--black-2);
+}
+
+.usersStory{
+    width: 70px;
+    height: 100%;
+    margin: auto 20px auto 20px;
+}
+
+.profileImage {
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    border: 3px solid #3f3f3f;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #2d2d2d, #0f0e0e);
+    animation: slideBackground 2s infinite linear;
+    background-size: 200%;
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profileImage svg{
+    color: var(--blue);
+    font-size: 1.2rem;
+}

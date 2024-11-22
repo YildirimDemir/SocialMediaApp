@@ -1,0 +1,232 @@
+.messagesPage{
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex: 1;
+}
+
+.allChatsArea{
+    flex: 1;
+    height: 99vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid #303030;
+}
+
+.allChatsArea h3{
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: var(--font-family-two);
+    margin-bottom: 20px;
+}
+
+.chatUser{
+    width: 100%;
+    height: 82px;
+    padding: 5px;
+    border-bottom: 1px solid #153147;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.chatUserImage {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chatUserInfo{
+    width: 240px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chatUsername{
+    color: #fff;
+    font-weight: 600;
+}
+
+.deleteChat{
+    font-size: .7rem;
+    color: firebrick;
+    position: absolute;
+    right: 10px;
+}
+
+.lastMessage{
+    color: #dedede;
+    font-size: .8rem;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+.chatArea{
+    flex: 3;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noMessagingText{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-family-two);
+}
+
+.selectChatText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.selectChatText h2{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: var(--font-family-two);
+}
+
+.messagingUser{
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: var(--black-2);
+    align-items: center;
+    border-bottom: 2px solid var(--black-2);
+}
+
+.messagingUserImage{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.messagingUserInfo{
+    display: flex;
+    width: calc(100% - 65px);
+    justify-content: space-between;
+}
+
+.messagingUsername{
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: var(--font-family-two);
+}
+
+.deleteChatBtn{
+    color: firebrick;
+    font-size: 1.1rem;
+}
+
+.chatsMessagesArea{
+    height: calc(95vh - 130px);
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.inputArea{
+    width: 600px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--black-2);
+    display: flex;
+    border: 1px solid #0a77ec;
+    border-radius: 8px;
+}
+
+.inputArea input{
+    /* border-radius: 7px 0px 0px 7px; */
+    height: 100%;
+    width: 450px;
+    outline: none;
+    padding: 10px;
+    background-color: var(--black-2);
+    color: #fff;
+}
+
+.imageUpload{
+    width: 50px;
+    height: 100%;
+    border-radius: 7px 0px 0px 7px;
+    outline: none;
+    padding: 5px;
+    background-color: #040228;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imageUpload span{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.messageImage{
+    margin: 5px auto 10px auto;
+    height: auto;
+}
+
+.inputArea button{
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    border-left: 1px solid #0a77ec;
+    background-color: #040228;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.message{
+    max-width: 300px;
+    height: auto;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: #fff;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.sentMessage {
+    margin-left: auto;
+    background-color: #382fbb;
+    position: relative;
+  }
+  
+.receivedMessage {
+    background-color: #4b4b4b;
+}
+  
+.deleteButton{
+    position: absolute;
+    right: 2px;
+    font-size: .6rem;
+    top: 1px;
+    color: var(--pink);
+}

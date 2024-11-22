@@ -1,0 +1,48 @@
+.storyArea{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid var(--black-2);
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 3px;
+    height: 100%;
+    background-color: var(--black-2);
+}
+
+.usersStory{
+    width: 70px;
+    height: 100%;
+    margin: auto 20px auto 20px;
+}
+
+.profileImage{
+    width: 73px;;
+    height: 73px;
+    border-radius: 50%;
+    border: 3px solid var(--blue);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.noStories{
+    border: none;
+}
+
+.profileImage image{
+    width: 100%;
+    height: 100%;
+}
+
+.usersStory p{
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 2px;
+    width: 100%;
+}
