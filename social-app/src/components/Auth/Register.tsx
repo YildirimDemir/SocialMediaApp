@@ -14,7 +14,7 @@ interface RegisterForm {
   email: string;
   password: string;
   passwordConfirm: string;
-  userRole: 'admin' | 'editor' | 'member';
+  userRole: 'user' | 'admin';
 }
 
 export default function Register() {
